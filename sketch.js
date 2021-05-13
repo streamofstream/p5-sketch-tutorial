@@ -22,7 +22,7 @@ if (typeof(DeviceMotionEvent) !== 'undefined' && typeof(DeviceMotionEvent.reques
  } else {
    background(255, 0, 0);
    textSize(68);
-   text ("non ios device", 100, 100);
+   text ("this is only mobile experience", 100, 100);
    fill(0, 102, 153);
 }
 }
