@@ -11,7 +11,7 @@ if (typeof(DeviceMotionEvent) !== 'undefined' && typeof(DeviceMotionEvent.reques
   DeviceMotionEvent.requestPermission()
   .catch(() => {
     button = createButton("click to start reading");
-     button.style("font-size","40px");
+     button.style("font-size","25px");
      button.center();
      button.mousePressed(requestAccess);
     throw error;
